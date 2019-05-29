@@ -1,5 +1,7 @@
 <!--index.wxml-->
 <view class="container">
+  <!--用于测试双向数据绑定的input-->
   <input class="weui-input" data-item="info" bindinput="inputedit"  name="manager" value="{{info}}" />
+  <!--用于测试双向数据绑定的按钮-->
   <view bindtap='btnClick'>点击</view>
 </view>
