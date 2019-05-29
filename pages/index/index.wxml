@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <input class="weui-input" data-item="info" bindinput="inputedit"  name="manager" value="{{info}}" />
+  <view bindtap='btnClick'>点击</view>
+</view>
